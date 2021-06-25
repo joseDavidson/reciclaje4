@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             btnRegistrarse,btnEntrarInvitado,btnDenunciarPunto
             ,btnRegistrarUsuario;
     private ImageButton btnPorPunto,btnPorRecolector;
-    //comentarioqlo
+    //comentario 2 qlo
 
 
 
