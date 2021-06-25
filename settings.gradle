@@ -1,0 +1,2 @@
+rootProject.name = "reciclaje4"
+include ':app'

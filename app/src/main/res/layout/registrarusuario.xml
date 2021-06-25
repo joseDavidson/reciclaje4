@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/txtcreacuenta"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etxtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="@string/etxtnombre"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/etxtApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Repetir Password:"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/etxtUbicacion"
+        app:layout_constraintStart_toStartOf="@+id/etxtUbicacion"
+        app:layout_constraintTop_toBottomOf="@+id/etxtUbicacion" />
+
+    <EditText
+        android:id="@+id/etxtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/etxtcorreo"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/etxtApellido"
+        app:layout_constraintStart_toStartOf="@+id/etxtApellido"
+        app:layout_constraintTop_toBottomOf="@+id/etxtApellido" />
+
+    <EditText
+        android:id="@+id/etxtNumeroT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/etxtnumerocontacto"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/etxtCorreo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/etxtCorreo"
+        app:layout_constraintTop_toBottomOf="@+id/etxtCorreo" />
+
+    <EditText
+        android:id="@+id/etxtUbicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/etxtpassword"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/etxtNombre"
+        app:layout_constraintStart_toStartOf="@+id/etxtNombre"
+        app:layout_constraintTop_toBottomOf="@+id/etxtNombre" />
+
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Crear Usuario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/etxtNumeroT"
+        app:layout_constraintStart_toStartOf="@+id/etxtNumeroT"
+        app:layout_constraintTop_toBottomOf="@+id/etxtNumeroT" />
+</androidx.constraintlayout.widget.ConstraintLayout>
