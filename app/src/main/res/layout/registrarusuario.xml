@@ -30,16 +30,16 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <EditText
-        android:id="@+id/etxtApellido"
+        android:id="@+id/etxtPasswordV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="Repetir Password:"
         android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="@+id/etxtUbicacion"
-        app:layout_constraintStart_toStartOf="@+id/etxtUbicacion"
-        app:layout_constraintTop_toBottomOf="@+id/etxtUbicacion" />
+        app:layout_constraintEnd_toEndOf="@+id/etxtPassword"
+        app:layout_constraintStart_toStartOf="@+id/etxtPassword"
+        app:layout_constraintTop_toBottomOf="@+id/etxtPassword" />
 
     <EditText
         android:id="@+id/etxtCorreo"
@@ -49,9 +49,9 @@
         android:ems="10"
         android:hint="@string/etxtcorreo"
         android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="@+id/etxtApellido"
-        app:layout_constraintStart_toStartOf="@+id/etxtApellido"
-        app:layout_constraintTop_toBottomOf="@+id/etxtApellido" />
+        app:layout_constraintEnd_toEndOf="@+id/etxtPasswordV"
+        app:layout_constraintStart_toStartOf="@+id/etxtPasswordV"
+        app:layout_constraintTop_toBottomOf="@+id/etxtPasswordV" />
 
     <EditText
         android:id="@+id/etxtNumeroT"
@@ -67,7 +67,7 @@
         app:layout_constraintTop_toBottomOf="@+id/etxtCorreo" />
 
     <EditText
-        android:id="@+id/etxtUbicacion"
+        android:id="@+id/etxtPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
